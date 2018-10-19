@@ -1,0 +1,16 @@
+PODS:
+  - NobodyHackathons (0.0.1)
+
+DEPENDENCIES:
+  - NobodyHackathons (from `../../NobodyHackathons`)
+
+EXTERNAL SOURCES:
+  NobodyHackathons:
+    :path: "../../NobodyHackathons"
+
+SPEC CHECKSUMS:
+  NobodyHackathons: eb57eb39ced66978ff85d62ad1558ac81021f415
+
+PODFILE CHECKSUM: 7a0f8172722650edd8971b5562a2cfe50b1589ad
+
+COCOAPODS: 1.5.0

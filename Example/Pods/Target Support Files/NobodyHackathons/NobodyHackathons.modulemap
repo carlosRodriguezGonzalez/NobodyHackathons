@@ -1,0 +1,6 @@
+framework module NobodyHackathons {
+  umbrella header "NobodyHackathons-umbrella.h"
+
+  export *
+  module * { export * }
+}
