@@ -10,9 +10,11 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/carlosRodriguezGonzalez/NobodyHackathons"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "CarlosRodriguezGonzalez" => "carlosrg1997@hotmail.com" }
-  s.platform     = :ios
-#s.source       = { :git => "https://github.com/carlosRodriguezGonzalez/NobodyHackathons.git", :tag => "#{s.version}" }
-s.source = { :path => '.' }
+  s.platform = :ios
+  s.ios.deployment_target = '10.0'
+  s.swift_version = "4.2"
+  s.source       = { :git => "https://github.com/carlosRodriguezGonzalez/NobodyHackathons.git", :tag => "#{s.version}" }
+#s.source = { :path => '.' }
 
   s.source_files  = "Source/*.swift"
 

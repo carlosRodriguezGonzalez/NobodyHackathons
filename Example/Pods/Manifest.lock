@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../../NobodyHackathons"
 
 SPEC CHECKSUMS:
-  NobodyHackathons: eb57eb39ced66978ff85d62ad1558ac81021f415
+  NobodyHackathons: 09f0a90513df2ed640bc4e49ec9c3d5656e7fac3
 
-PODFILE CHECKSUM: 7a0f8172722650edd8971b5562a2cfe50b1589ad
+PODFILE CHECKSUM: f58f5fbb4f78a4ecdf4fcac249b61ab929671854
 
 COCOAPODS: 1.5.0
