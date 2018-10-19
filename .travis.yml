@@ -1,0 +1,6 @@
+language: swift
+osx_image: xcode10
+xcode_sdk: iphonesimulator12.0
+script:
+- set -o pipefail
+- travis_retry xcodebuild -workspace Example/Example.xcworkspace -scheme Example -destination "platform=iOS Simulator,name=iPhone 6" build-for-testing test | xcpretty
